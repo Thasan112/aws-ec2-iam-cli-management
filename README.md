@@ -31,13 +31,10 @@ The lab covers secure remote connection to a Red Hat Enterprise Linux (RHEL) EC2
 ---
 
 ## 🚀 Programmatic IAM Policy Extraction
-
-### Challenge Description
 The goal was to download the specific `lab_policy` JSON-formatted IAM policy document directly to the Red Hat instance using **only the AWS CLI**, completely bypassing the AWS Management Console. 
 
-### Step-by-Step Solution Breakdown
 
-1. **List Policies and Filter by Scope:**
+**List Policies and Filter by Scope:**
    Query the IAM service to locate the specific ARN (Amazon Resource Name) associated with the `lab_policy` using local scoping:
    ```bash
    aws iam list-policies --scope Local
