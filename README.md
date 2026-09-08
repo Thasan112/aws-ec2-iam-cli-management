@@ -7,7 +7,6 @@ This project demonstrates foundational AWS cloud administration and command-line
 The lab covers secure remote connection to a Red Hat Enterprise Linux (RHEL) EC2 instance acting as a bastion host, manual installation and configuration of the AWS CLI, and advanced programmatic inspection and extraction of IAM security policies.
 
 
----
 ![IAM Configuration Overview](IAM.png)
 
 ---
